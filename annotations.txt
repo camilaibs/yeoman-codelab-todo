@@ -1,0 +1,50 @@
+prerequisites
+- node
+- npm
+- git
+
+yeoman toolset
+- yo
+- bower
+- grunt-cli
+
+yeoman generator
+traditional web development workflow
+- setting up boilerplate code
+- downloading dependencies
+- creating web folder structure
+
+
+a generator for AngularJS project
+- npm install --global generator-angular@0.11.1
+
+configure generator
+- optional settings to customize an app
+- to speed up the initial setup of a development enviroment
+    common developer libraries
+
+select/deselect angular modules using the spacebar (angular modules are self-contained + helpful functionality)
+
+yeoman will automatically
+- scaffold out your app
+- grab your dependencies
+- pull in a few useful Grunt tasks]
+
+start the server
+you don't have todo anything special to set up a local web server - it's part of Yeoman
+
+- local node-based http server: 
+    run grunt serve
+
+
+stop the server
+Ctrl + C
+
+bower commands line
+- bower list
+- bower search
+- bower install --save package1 packageN
+--save add to bower.json
+
+grunt: generate production-ready
+grunt serve:dist -> preview production-ready
